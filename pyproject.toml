@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "aio"
+version = "0.1.0"
+description = ""
+authors = ["Evgenius87 <plotnikov.evgenij@ukr.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+aiohttp = "^3.8.4"
+websockets = "^11.0.2"
+pprintpp = "^0.4.0"
+names = "^0.3.0"
+aiofile = "^3.8.5"
+aiopath = "^0.6.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
